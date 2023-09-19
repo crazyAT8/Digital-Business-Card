@@ -1,7 +1,15 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 body {
     background-color: black;
     padding: 20px 40px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .container1 {
@@ -64,7 +72,7 @@ footer {
     border-radius: 0px 0px 10px 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     body {
         padding: 0px 0px;
     }
@@ -83,6 +91,9 @@ footer {
 
     .name {
         font-size: 20px;
+    }
+    .jobTitle {
+        font-size: 13px;
     }
 
     links {
